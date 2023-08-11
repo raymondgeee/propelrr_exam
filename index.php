@@ -13,20 +13,20 @@
                 <h1>Registration Form</h1>
                 <hr>
                 <div class="name-container">
-                    <label>Full Name:</label>
-                    <input class="form-control" type="text" id="fullName" pattern="[A-Za-z.,\s]+"/>
+                    <label>Full Name: <i class="text-muted note">Accepted special characters , and . only</i></label>
+                    <input class="form-control" type="text" id="fullName" pattern="[A-Za-z.,\s]+" required/>
                 </div>
                 <div class="-container">
                     <label>Email Address:</label>
-                    <input class="form-control" type="email" id="email"/>
+                    <input class="form-control" type="email" id="email" required/>
                 </div>
                 <div class="mobile-container">
                     <label>Mobile Number:</label>
-                    <input class="form-control" type="text" id="mobile" pattern="^09[0-9]{9}$"/>
+                    <input class="form-control" type="text" id="mobile" pattern="^09[0-9]{9}$" required/>
                 </div>
                 <div class="bday-container">
                     <label>Date of Birth:</label>
-                    <input class="form-control" type="date" id="dob"/>
+                    <input class="form-control" type="date" id="dob" required/>
                 </div>
                 <div class="age-container">
                     <label>Age:</label>
