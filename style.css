@@ -1,0 +1,20 @@
+.registration-container {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 40%;
+    display: grid;
+    grid-template: row;
+    grid-template-rows: 1fr auto;
+    height: 100%;
+}
+
+.name-container, 
+.email-container, 
+.mobile-container, 
+.bday-container, 
+.age-container, 
+.gender-container, 
+.save-container {
+    margin-top: 15px;
+    align-content: flex-end;
+}
